@@ -5,19 +5,12 @@
     flex-direction: row;
     justify-content: space-between; 
     align-items: flex-end;
-    max-width: calc(100% - 48px * 2);
     margin: 28px auto auto auto;
     border: solid red;
-}
-@media screen and (max-width: 768px) {
-    .header{
-        max-width: calc(100% - 24px * 2);
-    }
 }
 
 @media screen and (max-width: 320px) {
     .header{
-        max-width: calc(100% - 16px * 2);
         margin-top: 16px auto auto auto;
     }
    
