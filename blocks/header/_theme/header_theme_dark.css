@@ -1,0 +1,13 @@
+.header_theme_dark {
+    margin: 28px auto 56px auto;
+}
+@media screen and (max-width: 1279px) {
+    .header_theme_dark {
+        margin: 28px auto 48px auto;
+    }
+}
+@media screen and (max-width: 767px) {
+    .header_theme_dark {
+        margin: 16px auto 48px auto;
+    }
+} 

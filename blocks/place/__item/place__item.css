@@ -1,0 +1,24 @@
+.place__item {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 48px 40px;
+    margin-bottom: 80px;  
+}
+.place__item:nth-child(5n) {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1023px) {
+    .place__item {
+        grid-template-columns: 340px 1fr;
+        gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__item {
+        grid-template-columns: 1fr;
+        gap: 48px 28px;
+    }
+       
+}

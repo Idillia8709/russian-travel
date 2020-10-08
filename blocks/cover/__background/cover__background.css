@@ -1,0 +1,48 @@
+.cover__background {
+    background: url('../../../images/__background.jpg');
+    background-size: cover;
+    min-height: 740px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    position: relative; 
+    }
+
+.cover__background:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+.cover__background:hover:before {
+    background: #2A2C2F;
+    opacity: 0.8;
+}
+@media screen and (max-width: 1279px) {
+    .cover__background {
+        min-height: 640px;
+        background: url('../../../images/__background_1024.jpg');
+        background-size: cover;
+    }
+@media screen and (max-width: 1023px) {
+    .cover__background {
+         min-height: 480px;
+         background: url('../../../images/__background_768.jpg');
+         background-size: cover;
+    }
+}
+@media screen and (max-width: 400px) {
+    .cover__background {
+        min-height: 200px;
+        background: url('../../../images/__background_320.jpg');
+        background-size: cover;
+    }
+}

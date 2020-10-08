@@ -1,4 +1,11 @@
 @import url('../cover/__title/cover__title.css');
 @import url('../cover/__subtitle/cover__subtitle.css');
 @import url('../cover/__background/cover__background.css');
-@import url('../cover/__overlay/cover__background.css');
+.cover {
+    width: calc(100% - 48px * 2);  
+}
+@media screen and (max-width: 1279px) {
+    .cover {
+        width: 100%;
+    }
+}
