@@ -32,6 +32,7 @@
         background: url('../../../images/__background_1024.jpg');
         background-size: cover;
     }
+}
 @media screen and (max-width: 1023px) {
     .cover__background {
          min-height: 480px;
