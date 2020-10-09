@@ -8,6 +8,12 @@
 .place__item:nth-child(5n) {
     margin-bottom: 0;
 }
+@media screen and (max-width: 1279px) {
+    .place__item {
+        grid-template-columns: 440px 1fr;
+        gap: 48px 32px;
+    }
+}
 @media screen and (max-width: 1023px) {
     .place__item {
         grid-template-columns: 340px 1fr;
@@ -18,7 +24,7 @@
 @media screen and (max-width: 767px) {
     .place__item {
         grid-template-columns: 1fr;
-        gap: 48px 28px;
+        gap: 32px 0;
     }
        
 }

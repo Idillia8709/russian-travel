@@ -5,7 +5,7 @@
     line-height: 163%;
     margin: 0 0 24px 0;  
 }
-.place__paragrap:nth-child(2n) {
+.place__paragraph:nth-child(2n) {
     margin: 0;  
 }
 @media screen and (max-width: 1023px) {
